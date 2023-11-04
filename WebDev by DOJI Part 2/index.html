@@ -1,0 +1,79 @@
+<!-- the code below is use when you already have a css file -->
+<!-- <link rel="stylesheet" href=""> -->
+<!-- padding is space inside while margin is space outside-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 2: HTML Design</title>
+        <style> 
+            header{
+               color: white;
+               background: green; 
+               padding: 5px;
+
+            }
+            body{
+                margin: 0px;
+                background-color:burlywood ;
+            }
+
+            .Description{
+                color:green ;
+                background-color: white;
+            }
+
+            ul li{
+                list-style: none;
+            }
+            li a{
+                text-decoration: none;
+                margin-left: 0%;
+                margin-right: 15px;
+                color: white;
+            }
+
+            nav ul{
+                display: flex;
+                margin: 0%;
+                padding: 0%;
+            }
+            
+            button{
+                margin:20px;
+                padding: 5px;
+                background-color: green;
+                color: white;
+                border: none;
+            }
+            
+            button:hover{
+               background-color: darkgreen; 
+            }
+            
+            a:hover{
+                color: gold;
+            }
+
+        </style>
+
+    </head>
+    
+    <header>
+        <h1>Lessson 2: HTML Design</h1>
+        <h4 class="Description">Design with HTML</h4>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Message</a></li>
+                <li><a href="">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <div>
+            <button>Button</button>
+        </div>
+    </body>
+</html>
